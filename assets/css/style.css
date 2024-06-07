@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #edeaed;
+  font-family: "Reddit Mono", monospace;
+}
+
+body {
+  background-color: #4b628c;
+}
+
+nav img {
+  width: 6rem;
+  height: 2rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* Principal */
+
+.background {
+  background-color: #3c4c69;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.background p {
+  font-size: 1rem;
+  width: 600px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.imgFixed {
+  width: 65%;
+}
+
+/* Secondary */
+
+.secondary {
+  width: 100%;
+  height: 300px;
+  background-color: #edeaed;
+}
+
+.secondary h2 {
+  color: #3c4c69;
+}
+
+.icons img {
+  width: 60px;
+  height: 60px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icons img:hover {
+  transform: scale(1.2);
+}
+
+.card {
+    width: 300px;
+    height: 370px;
+    margin: 10px;
+    overflow: hidden; 
+}
+.card-body {
+    padding: 15px; 
+}
+
+.carousel-item .d-flex .card {
+    margin: 5px; /* Reduce el margen entre las cards dentro del carrusel */
+}
+
+.card img {
+width: 70%;}
