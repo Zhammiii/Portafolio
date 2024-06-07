@@ -26,11 +26,13 @@ ul li {
 .background {
   background-color: #3c4c69;
   border-radius: 15px;
-  padding: 20px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.43);
+-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.43);
+box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.43);
 }
 
 .background p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   width: 600px;
 }
 
@@ -41,7 +43,7 @@ ul li {
 }
 
 .imgFixed {
-  width: 65%;
+  width: 60%;
 }
 
 /* Secondary */
